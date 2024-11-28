@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+}
+
+h1{
+    font-family: fira sans;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 12px;
+}
+
+li{
+    display: inline;
+}
+
+.section__container{
+    background-color: antiquewhite;
+    max-width: 1200px;
+    margin: auto;
+    padding: 14px 16px;
+}
+
+.section__header {
+    margin-bottom: 13px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: fira sans;
+    color: black;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: verdana;
+    color: rgb(32, 32, 32);
+    padding: 12px 4px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline;
+    text-align: left;
+    padding: 12px 12px;
+}
+
+li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: fira sans;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    z-index: 9;
+}
+
+.nav__header{
+    padding: 20 px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(202, 202, 202);
+    position: fixed;
+}
+
+.nav__logo .logo{
+    color: black;
+}
+
+.logo.a:hover{ 
+    padding: 12px 12px;
+}
